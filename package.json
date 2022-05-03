@@ -1,15 +1,30 @@
 {
-    "name": "Note-Taker",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "express": "^4.16.4",
-        "heroku": "^7.2.0"
-    }
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "For this challenge, I was tasked with creating an application called Note Taker that can be used to write and save notes.\r The app uses an Express.js back end and will save and retrieve user generated note data from a JSON file.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "McDonalds",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "heroku": "^7.2.0",
+    "listen": "^1.0.1",
+    "web": "^0.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranklynT1/Note-Taker.git"
+  },
+  "keywords": [
+    "Happy"
+  ],
+  "bugs": {
+    "url": "https://github.com/FranklynT1/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/FranklynT1/Note-Taker#readme"
 }
